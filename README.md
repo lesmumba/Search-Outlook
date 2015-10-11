@@ -2,7 +2,9 @@
 
 This script uses the win32com module to search Microsoft Outlook foldersfor emails which match a set criteria.
 Matching emails are saved as HTML pages to an appropriate folder for easy retrival labelled as:
-  sender_name - message.Subject.html
+> sender_name - message.Subject.html
+> > eg. Joe Grind - Wah Gwaan.html
+
 
 A HTML page is also genearted which serves as an index file with links to emails in their respective locations.
 
